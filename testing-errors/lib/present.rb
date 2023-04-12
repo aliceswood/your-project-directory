@@ -5,7 +5,7 @@ class Present
   end 
 
   def unwrap
-    fail "No contents have been wrapped." if @contents.nil?
-    return @contents
+    fail "No contents have been wrapped." if @gift.nil?
+    return @gift
   end 
 end
